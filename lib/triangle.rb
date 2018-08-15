@@ -18,7 +18,7 @@ class Triangle
       raise TriangleError
     end
   end
-   def kind
+  def kind
    if valid_triangle?
     return :equilateral if a == b && a == c && b == c
     return :isosceles if a == b || b == c || a == c
