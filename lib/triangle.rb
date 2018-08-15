@@ -1,7 +1,8 @@
 class Triangle
   # write code here
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :a, :b, :c #sides
 
-  def initialize(equilateral:, isosceles:, scalene:)
+  def initialize(a:, b:,c:)
+
   end
 end
