@@ -2,7 +2,7 @@ class Triangle
   # write code here
   attr_accessor :a, :b, :c #sides
 
-  def initialize(a,b,c)
+  def initialize(a,b,c) # init qith all equal sides
     @a = a
     @b = b
     @c = c
@@ -26,6 +26,6 @@ class Triangle
       raise TriangleError
     end
   end
-  class TriangleError < StandardError
+  class TriangleError < StandardError #standard error flag
   end
 end
