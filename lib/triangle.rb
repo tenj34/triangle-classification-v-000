@@ -18,6 +18,7 @@ class Triangle
       raise TriangleError
     end
   end
+
   def kind
    if valid_triangle?
     return :equilateral if a == b && a == c && b == c
@@ -26,5 +27,7 @@ class Triangle
     else
       raise TriangleError
     end
+  end
+  class TriangleError < StandardError
   end
 end
