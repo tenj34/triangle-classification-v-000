@@ -10,8 +10,6 @@ class Triangle
 
   def valid_triangle?
     if a && b && c > 0.0 && a + b > c && a + c > b && b + c > a
-    #a, b, c = [a, b, c].sort
-    #if a <= 0.0 or a + b <= c
       return true
     else
       return false
